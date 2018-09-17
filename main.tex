@@ -20,7 +20,8 @@ headsepline, % Uncomment to get a line under the header
 
 \usepackage[utf8]{inputenc} % Required for inputting international characters
 \usepackage[T1]{fontenc} % Output font encoding for international characters
-
+\usepackage{minted} % Output syntaxhighlighting for code-blocks
+\usemintedstyle{emacs}
 \usepackage{mathpazo} % Use the Palatino font by default
 
 \usepackage[backend=bibtex,style=authoryear,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
@@ -174,7 +175,7 @@ $\omega$ & angular frequency & \si{\radian} \\
 \end{symbols}
 
 %----------------------------------------------------------------------------------------
-%	THESIS CONTENT - CHAPTERS
+%	CHAPTERS
 %----------------------------------------------------------------------------------------
 
 \mainmatter % Begin numeric (1,2,3...) page numbering
@@ -192,7 +193,15 @@ $\omega$ & angular frequency & \si{\radian} \\
 %\include{Chapters/Chapter5} 
 
 %----------------------------------------------------------------------------------------
-%	THESIS CONTENT - APPENDICES
+%	CODE SAMPLES
+%----------------------------------------------------------------------------------------
+
+\include{Code/sample/css_template}
+\include{Code/sample/html_template}
+
+
+%----------------------------------------------------------------------------------------
+%	APPENDICES
 %----------------------------------------------------------------------------------------
 
 \appendix % Cue to tell LaTeX that the following "chapters" are Appendices
