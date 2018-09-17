@@ -1,0 +1,11 @@
+#tagid1 {
+    padding: 20px; 
+    border: 20px groove #ffffff 
+}
+.class1, #tagid2 { font-family: 'comic sans ms', fantasy; color: rgb(100%,100%,0%) }
+h1, h2, div.class5, blockquote { background: #000080 }
+p.special {
+    font: 12pt/14pt sans-serif;
+    margin: 5px 0px 2px 25px;
+    border: medium dashed #ff0000;
+    background: white url(http://www.foo.com/image.gif) repeat-x fixed top right 
